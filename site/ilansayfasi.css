@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.main-header {
+    width: 100%;
+    background: linear-gradient(to right, #5b86e5, #387fb9e6);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 6%;
+}
+
+.main-header h1 {
+    margin: 0;
+}
+/* kullanıcı adı*/
+.kullanici-btn{
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 75%;
+    display: inline-block; /* Satır içinde tutar */
+    white-space: nowrap; /* Satır atlamasını engeller */
+}
+/* 2. menünün en sağı*/
+.ilan-ekle-btn {
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block; /* Satır içinde tutar */
+    white-space: nowrap; /* Satır atlamasını engeller */
+    margin-right: 10%;
+
+}
+
+
+.main-footer {
+    width: 100%;
+    background: linear-gradient(to right, #5b86e5, #387fb9e6);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    
+    bottom: 0px ;
+    position: fixed;
+    
+}
+.sefo{
+    text-decoration: none;
+    color: white;
+}
+
+.detay-btn {
+    background-color: #5b86e5;
+    color: white;
+    font-size: 14px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 75%;
+    
+     /* Sağ kenara yaslama */
+    top: 50%;
+    transform: translateY(-50%); /* Dikey ortalama */
+}
+
+.detay-btn:hover {
+    background-color: #387fb9e6;
+}
+
+.ilan-container {
+    background-color: #7897f5;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: none;
+    
+    width: 50%;
+    padding: 25px;
+    border-radius: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-bottom: 2px;
+}
+
+.box {
+    width: 45% ;/* %50 yaparsan boşluklar için sıkışabilir */
+    height: 20px;
+    display: flex;  
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+   
+    
+}
+
+/* Renkleri ayırarak belirginleştirdim */
+.box1 { 
+    
+    height: 10px;
+}
+.box2 { 
+
+    font-size: 24pt;
+
+ }
+.box3 { 
+width: 40%;
+}
+.box4 a { 
+
+    text-decoration: none;
+    color: white;
+    background-color: rgba(131, 197, 56, 0.712);
+    border-radius: 70px;
+    padding: 15px;
+    width: 50%;
+    
+    text-align: center;
+    margin-right: 60px;
+    
+}
+.gorunmez{
+
+    opacity:0;
+    height: 80px;
+    width: 10px;
+}

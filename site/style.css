@@ -1,0 +1,405 @@
+.main-header{
+    width: 100%;
+    background: linear-gradient(to right, #5b86e5, #387fb9e6);
+    color: white;
+    display: flex;
+    
+    align-items: center;
+    padding: 5px 30px;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+.sefo{
+    text-decoration:none;
+    color: white;
+}
+
+
+
+/* Genel sayfa stilleri */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('backgrounddoga.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    margin: 0;  
+    padding: 0;
+    overflow: hidden; /* Taşan içeriği gizler */
+}
+
+.second-footer-class{
+    position: absolute;
+    width: 100%;
+    background-color:rgb(190, 190, 190);
+    height: 540%;
+    margin-top: -3%;
+    opacity: 0.8;
+    z-index: -1;
+        display: flex;
+}
+.secondkutu{
+    width: 20%;
+    height: 70%;
+    background-color: rgb(190, 190, 190);
+    z-index: 1;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+.secondkutu p{
+    font-size: x-large;
+}
+.secondkutu img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.main-footer {
+    position: absolute;
+    margin-top: 25.05%;
+    width: 100%;
+    
+    background: linear-gradient(to right, #5b86e5, #387fb9e6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.footer-content {
+    width: 80%;
+}
+
+/* Arama kutularını ve butonu yatay hizala */
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    background:#5b86e5;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 70%;
+    margin-top: 15%;
+    margin-left: 15%;
+    height: 80px;
+    
+    
+    
+}
+
+/* Her menüye özel class */
+.baslangic-menu, .bitis-menu, .saat-menu {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    
+}
+
+/* çalışmıyooooooooooooooooooooooooo seçenek için yazı tipi
+.select {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #222;
+}
+
+
+/* Seçim kutularının tasarımı */
+.rota-box {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 280px;
+    outline: none;
+    transition: 0.3s;
+    
+
+    
+}
+
+/* Yolculuk bul butonu tasarımı */
+.search-btn {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    font-size: 16px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search-btn:hover {
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+    transform: scale(1.05);
+}
+
+
+/* Yolculuk oluştur butonu tasarımı*/
+.ilan-ekle-btn {
+    display: block;
+    margin-top: -11%;
+    margin-left: 10px;
+    
+    
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.ilan-ekle-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #5b86e5, #36d1dc);
+}
+
+.oturum-btn {
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 20%;
+}.main-header{
+    width: 100%;
+    background: linear-gradient(to right, #5b86e5, #387fb9e6);
+    color: white;
+    display: flex;
+    height: 90px;
+    align-items: center;
+    padding: 5px 30px;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+
+
+
+/* Genel sayfa stilleri */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('backgrounddoga.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    margin: 0;  
+    padding: 0;
+    overflow: hidden; /* Taşan içeriği gizler */
+}
+
+.second-footer-class{
+    position: absolute;
+    width: 100%;
+    background-color:white;
+    height: 540%;
+    margin-top: -3%;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.main-footer {
+    position: fixed;
+    bottom:  0;
+    width: 100%;
+    
+    background: linear-gradient(to right, #5b86e5, #387fb9e6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+   
+}
+
+.footer-content {
+    width: 80%;
+}
+
+/* Arama kutularını ve butonu yatay hizala */
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    background:#5b86e5;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 70%;
+    margin-top: 15%;
+    margin-left: 15%;
+    height: 80px;
+    
+    
+    
+}
+
+/* Her menüye özel class */
+.baslangic-menu, .bitis-menu, .saat-menu {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    
+}
+
+/* çalışmıyooooooooooooooooooooooooo seçenek için yazı tipi
+.select {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #222;
+}
+
+
+/* Seçim kutularının tasarımı */
+.rota-box {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 280px;
+    outline: none;
+    transition: 0.3s;
+    
+
+    
+}
+
+/* Yolculuk bul butonu tasarımı */
+.search-btn {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    font-size: 16px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search-btn:hover {
+    background: linear-gradient(to right, #ff5e62, #ff9966);
+    transform: scale(1.05);
+}
+
+
+/* Yolculuk oluştur butonu tasarımı*/
+.ilan-ekle-btn {
+    display: block;
+    margin-top: -10px;
+    margin-right: 5%;
+    height: 20px;
+    
+    width: 120px;
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    align-items: center;
+}
+.ilan-ekle-btnacs {
+    display: block;
+    margin-top: -10px;
+    margin-right: 3%;
+    height: 20px;
+    
+    width: 120px;
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    align-items: center;
+}.ilan-ekle-btnacy {
+    display: block;
+    margin-top: -10px;
+    margin-right: 5%;
+    height: 20px;
+    
+    width: 120px;
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    align-items: center;
+}
+.ilan-ekle-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #5b86e5, #36d1dc);
+}
+
+.ilan-ekle-btnacs:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #5b86e5, #36d1dc);
+}
+.ilan-ekle-btnacy:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #5b86e5, #36d1dc);
+}
+.oturum-btn {
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 72%;
+}
+.oturum-btnacs {
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 50%;
+    width: 150px;
+}
+.oturum-btnacy {
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 72%;
+}
